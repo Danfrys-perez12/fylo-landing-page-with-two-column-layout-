@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="navegacion__imagen">
+      <img class="logo" src="images/logo.svg" alt="logo">
+    </div>
+    <nav class="header__navegacion">
+      <a href="#">Features</a> 
+      <a href="#">Team</a>
+      <a href="#">Sign In</a>
+    
+      
+    </nav>
+  </header>
+
+ <main class="contenedor-principal">
+
+<div class="contenido contenido-uno">
+<div class="contenido__parrafo">
+   <!----------------------------------->
+  <h1>All your files in one secure location, accessible anywhere. </h1>
+  
+
+  <p>Fylo stores your most important files in one secure location. 
+    Access them wherever you need, share and collaborate with friends, 
+    family, and co-workers.
+  </p>
+
+   <!----------------------------------->
+  
+    <form class="formulario">
+
+      <div class="div__label">
+      <input class="label focus" type="email" placeholder="Enter you E-mail" required>
+         <!--<span style="margin-top: 1rem; margin-bottom: -10rem;" class="formulario-mensaje"> Please check you email</span>-->
+      </div>
+  <!----------------------------------->
+     <div class="div__boton">
+      <button class="boton" type="button">Get Started</button>
+     </div>
+
+    </form>
+  
+ 
+</div>
+ 
+
+  <div class="contenido__imagen">
+    <img src="images/illustration-1.svg" alt="Ilustracion">
+  </div>
+ 
+</div>
+
+
+<!---------------------Contenido dos------------------------->
+<div class="contenido contenido-dos">
+
+  <div class="contenido-dos__izquierda">
+    <h2>Stay productive, wherever you are</h2>
+
+    <p>Never let location be an issue when accessing your files. Fylo has you 
+      covered for all of your file storage needs.</p>
+  
+    <p>Securely share files and folders with friends, family and colleagues for 
+      live collaboration. No email attachments required!</p>
+
+ 
+  <div class="banner-h5">
+      <div class="h5-arrow">
+        <h5 class="activo-baner">See how Fylo works</h5> 
+      <img class="arrow" src="images/icon-arrow.svg" alt="arrow">
+      </div>
+      <div class="banner activo-baner"></div>
+  </div>
+
+   <div class="contenido-dos___textimonio sombra-div">
+        <img class="quotes" src="images/icon-quotes.svg" alt="">
+        <p class="testimonio-parrafo">Fylo has improved our team productivity by an order of magnitude. Since 
+        making the switch our team has become a well-oiled collaboration machine.</p>
+   
+            <div class="contendo-dos__testimonio__imagen">
+              <img class="testimonio-imagen__avatar" src="images/avatar-testimonial.jpg" alt="perfil">
+              <div class="contenedor-avatar">
+                <h6 class="testimonio-nombre">Kyle Burton</h6>
+                <p>Founder & CEO, Huddle</p>
+              </div>
+             
+            </div>
+    
+    </div>
+
+ </div>
+
+  <div class="contenido-dos__imagen">
+    <img src="images/illustration-2.svg" alt="Ilustrador">
+  </div>
+
+</div>
+
+<!---------------------------------fn de contenido dos-->
+
+<div class="contenido div-principal_acceso">
+  <div class="contenedor-acceso">
+    <h3 class="acceso-h3">Get early access today</h3>
+
+    <p class="acceso-parrafo">It only takes a minute to sign up and our free starter tier is extremely generous. 
+      If you have any questions, our support team would be happy to help you.</p>
+  </div>
+ 
+  
+    <form class="formulario-acceso">
+      <input class="formulario-acceso__input"  type="email" placeholder="email@example.com" required>
+      <!--<span style="margin-top: 1rem; margin-bottom: -10rem;" class="formulario-mensaje"> Please check you email</span>-->
+      <button type="submit">Get Started For Free</button>
+    </form>
+ 
+  
+ </div>
+
+
+
+  
+</main><!--fin del main-->
+
+  <footer class="footer">
+
+ <!-----------------Primer seccion--------------------->
+    <section class="contenedor-comunicaciones contenedor-footer">
+      <img class="footer-logo" src="images/logo2.svg" alt="logo">
+      <div class="cel-div footer-flex comnicacion">
+        <img class="icono" src="images/icon-phone.svg" alt="celphone">
+      <p class=" blanco">Phone: +1-543-123-4567</p>
+      </div>
+      
+      <div class="email-div footer-flex comnicacion">
+        <img class="icono" src="images/icon-email.svg" alt="email">
+        <p class=" blanco">example@fylo.com</p>
+      </div>
+    </section>
+    <!-------------------segundo seccion------------------->
+    <section class=" contenerdor-nosotros contenedor-footer">
+      <p class=" activo nosotros  blanco">About Us</p>
+      <p class=" activo nosotros blanco">Jobs</p>
+      <p class=" activo nosotros blanco">Press</p>
+      <p class=" activo nosotros blanco">Blog</p>
+    </section>
+     <!--------------------tercer seccion------------------>
+     <section class=" blanco contenedor-terminos contenedor-footer">
+      <p class=" activo contactos blanco">Contact Us</p>
+      <p class=" activo contactos blanco">Terms</p>
+      <p class=" activo contactos blanco"> Privacy</p>
+     </section>
+     <!--------------------cuarto seccion------------------>
+     <section class="contenedor-redes contenedor-footer footer-flex">
+      <img class="activo redes" src="images/facebook.png" alt="ico-facebook">
+      <img class="activo redes" src="images/twitter.png" alt="ico-twitter">
+      <img class="activo redes" src="images/instagram.png" alt="ico-instagram">
+     </section>
+  </footer>
+</body>
+</html>
